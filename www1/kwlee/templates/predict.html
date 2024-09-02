@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {% load static %}
+    {% if result == 0 %}
+    <img src="{% static 'setosa.jpg'%}" width="200" height="200">
+    {% elif result == 1 %}
+    <img src="{% static 'versicolor.jpeg'%}" width="200" height="200">
+    {% else %}
+    <img src="{% static 'virginica.jpg'%}" width="200" height="200">
+    {% endif %}
+    <hr>
+    예측 결과는 <b> {{ retval }} </b> 입니다. <a href="/kwlee/iris/">다시예측</a>
+</body>
+
+</html>
