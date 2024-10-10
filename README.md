@@ -1,9 +1,5 @@
 # Study_Django
 
-## 소개 (Introduction)
-
-이 저장소는 Django 프레임워크를 사용하여 웹 애플리케이션을 개발하는 과정에서의 실습 코드를 포함하고 있습니다.
-
 ## 목차 (Table of Contents)
 
 ### Django 프로젝트 구조 (Django Project Structure)
